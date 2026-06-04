@@ -18,7 +18,7 @@
     <release:action phase="generate-archive">rm .gitignore</release:action>
   </release:management>
 
-  <group arch="*-src" compile:dup-src="true" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+  <group arch="*-src" compile:dup-src="true" license="LGPL-2.1-or-later">
     <command name="compile">
       <runner interface="https://apps.0install.net/devel/make.xml">
         <arg>SRCDIR=${SRCDIR}</arg>
